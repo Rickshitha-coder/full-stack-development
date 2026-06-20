@@ -20,13 +20,11 @@
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
         }
 
         h1 {
-            text-align: center;
             color: #2c3e50;
-            font-size: 36px;
-            margin-bottom: 20px;
         }
 
         p {
@@ -36,10 +34,53 @@
             line-height: 1.8;
         }
 
-        .highlight {
-            color: #0077cc;
-            font-weight: bold;
+        img {
+            width: 400px;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
         }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #0077cc;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #005fa3;
+        }
+        .list-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+.list-box {
+    flex: 1;
+    background-color: #f4f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-box h3 {
+    text-align: center;
+    color: #0077cc;
+}
+
+.list-box ol,
+.list-box ul {
+    text-align: left;
+    line-height: 1.6;
+}
     </style>
 </head>
 
@@ -49,15 +90,51 @@
         <h1>Artificial Intelligence</h1>
 
         <p>
-            <span class="highlight">Artificial Intelligence (AI)</span> is a branch of computer
-            science that focuses on creating intelligent systems capable of performing tasks that
-            typically require human intelligence. AI technologies are used in various fields such
-            as healthcare, education, banking, transportation, and entertainment. Applications
-            like virtual assistants, recommendation systems, language translation, and self-driving
-            vehicles rely on AI to improve efficiency and accuracy. As technology continues to
-            advance, AI is playing an increasingly important role in solving complex problems and
-            enhancing our daily lives.
+            Artificial Intelligence (AI) is a branch of computer science that focuses on creating
+            intelligent systems capable of performing tasks that typically require human intelligence.
+            AI technologies are used in various fields such as healthcare, education, banking,
+            transportation, and entertainment. Applications like virtual assistants, recommendation
+            systems, language translation, and self-driving vehicles rely on AI to improve efficiency
+            and accuracy.
         </p>
+
+        <!-- Image -->
+        <img src="https://chrysalishigh.com/wp-content/uploads/2026/01/artificial-intelligence-vs-human-intelligence.png" alt="AI Image">
+
+        <br>
+
+        <!-- Hyperlink -->
+        <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">
+            Learn More About AI
+        </a>
+
+        <h2>Artificial Intelligence vs Human Intelligence</h2>
+
+<div class="list-container">
+
+    <div class="list-box">
+        <h3>Features of Artificial Intelligence</h3>
+        <ol>
+            <li>Processes large amounts of data quickly.</li>
+            <li>Works continuously without fatigue.</li>
+            <li>Provides high accuracy in repetitive tasks.</li>
+            <li>Can automate complex processes.</li>
+            <li>Learns from data using machine learning algorithms.</li>
+        </ol>
+    </div>
+
+    <div class="list-box">
+        <h3>Features of Human Intelligence</h3>
+        <ul>
+            <li>Possesses creativity and imagination.</li>
+            <li>Can understand emotions and empathy.</li>
+            <li>Makes decisions based on experience and intuition.</li>
+            <li>Adapts to new situations naturally.</li>
+            <li>Exhibits moral and ethical reasoning.</li>
+        </ul>
+    </div>
+
+</div>
     </div>
 
 </body>
