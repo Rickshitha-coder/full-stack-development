@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lazy Student Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3e8ff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            width: 60%;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px lightgray;
+        }
+
+        h1 {
+            color: #7b2cbf;
+        }
+
+        p {
+            color: #444;
+            font-size: 18px;
+        }
+
+        button {
+            background-color: #e056fd;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #be2edd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Lazy Student Club 😴</h1>
+
+        <p id="message">
+            Welcome to the Lazy Student Club! Our members believe that every assignment can be started tomorrow.
+        </p>
+
+        <p>
+            Club Motto: "Why do today what you can postpone until tomorrow?"
+        </p>
+
+        <button onclick="changeText()">Reveal Secret</button>
+    </div>
+
+    <script>
+        function changeText() {
+            document.getElementById("message").innerHTML =
+            "Congratulations! You have been promoted to Professional Assignment Starter at 11:59 PM 😂";
+        }
+    </script>
+
+</body>
+</html>
